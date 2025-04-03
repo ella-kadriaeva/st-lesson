@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- nav.navbar>.container>.content>a.navbar-logo{MiniStore}>span{.}^.navbar-menu>ul.nav>li*5>a.nav__item{Link $}^^.navbar-icons>div*2>i^div>i+span{(0)} -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-logo">MiniStore<span>.</span></a>
+
+            <div class="navbar-menu">
+                <ul class="nav">
+                    <li><a href="#" class="nav__item nav__item-active">Home</a></li>
+                    <li><a href="#" class="nav__item">Pages</a></li>
+                    <li><a href="#" class="nav__item">About</a></li>
+                    <li><a href="#" class="nav__item">Blogs</a></li>
+                    <li><a href="#" class="nav__item">Contact</a></li>
+                </ul>
+                <div class="navbar-icons">
+                    <div><i data-lucide="search" class="icon"></i></div>
+                    <div><i data-lucide="user-round" class="icon"></i></div>
+                    <div><i data-lucide="shopping-cart" class="icon"></i><span>(0)</span></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header.header>.content>.header__left>h2.header__title+button.btn{Shop Product}^^.header__right>img[src="./image/watch.jpg"] -->
+    <header class="header">
+        <div class="container">
+            <div class="header__left">
+                <h2 class="header__title">Your Products are great.</h2>
+                <button class="btn btn-dark">Shop Product</button>
+            </div>
+            <div class="header__right"><img src="./image/watch-2.png" alt=""></div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="features">
+            <div class="container">
+                <div class="features-item">
+                    <i data-lucide="shopping-cart" class="icon"></i>
+
+                    <div class="features-item__content">
+                        <h3 class="features-item__title">100% secure payment</h3>
+                        <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <div class="features-item">
+                    <i data-lucide="shopping-cart" class="icon"></i>
+
+                    <div class="features-item__content">
+                        <h3 class="features-item__title">Free delivery</h3>
+                        <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <div class="features-item">
+                    <i data-lucide="shopping-cart" class="icon"></i>
+
+                    <div class="features-item__content">
+                        <h3 class="features-item__title">Quality guarantee</h3>
+                        <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <div class="features-item">
+                    <i data-lucide="shopping-cart" class="icon"></i>
+
+                    <div class="features-item__content">
+                        <h3 class="features-item__title">Daily offers</h3>
+                        <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Mobile Products</h2>
+                    <a class="section__link">Go to Shop</a>
+                </div>
+
+                <div class="section-content">
+
+                    <div class="products">
+                        <div class="swiper products-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-1.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-2.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-3.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-4.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-1.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-2.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-3.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-4.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Mobile Products</h2>
+                    <a class="section__link">Go to Shop</a>
+                </div>
+
+                <div class="section-content">
+
+                    <div class="products">
+                        <div class="swiper products-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-1.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-2.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-3.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-4.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-1.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-2.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-3.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <img src="./image/product-4.png" alt="">
+                                            <div class="item__overlay"><button class="btn btn-dark btn-icon">Add To Cart <i
+                                                        class="icon" data-lucide="shopping-cart"></i></button></div>
+                                        </div>
+                                        <div class="item__footer">
+                                            <h2 class="item__title">Iphone 10</h2>
+                                            <span class="item__price">$980</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sale">
+            <div class="container">
+                <div class="sale__content">
+                    <h3 class="sale__discount">10% off</h3>
+                    <h2 class="sale__title">New year sale</h2>
+
+                    <button class="btn btn-dark">Shop sale</button>
+                </div>
+            </div>
+
+            <img src="./image/sale-bg.png" alt="">
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Latest Posts</h2>
+                    <a class="section__link">Read blogs</a>
+                </div>
+
+                <div class="section-content">
+                    <div class="blog">
+                        <div class="item">
+                            <img src="./image/blog-1.png" alt="">
+    
+                            <p>feb 22, 2023  -  Gadgets</p>
+                            <h3>Get some cool gadgets in 2023</h3>
+                        </div>
+                        <div class="item">
+                            <img src="./image/blog-2.png" alt="">
+    
+                            <p>feb 22, 2023  -  Gadgets</p>
+                            <h3>Get some cool gadgets in 2023</h3>
+                        </div>
+                        <div class="item">
+                            <img src="./image/blog-3.png" alt="">
+    
+                            <p>feb 22, 2023  -  Gadgets</p>
+                            <h3>Get some cool gadgets in 2023</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        let swiper = new Swiper(".products-swiper", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

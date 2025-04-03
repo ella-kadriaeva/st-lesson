@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- ul.nav>li*4>a[href="#" class="nav__item"]{Link $} -->
+
+        <div class="mobile">
+            <button class="mobile-btn"><i data-lucide="menu"></i></button>
+
+            <ul class="nav">
+                <li><a href="#" class="nav__item nav__item-active">Link 1</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="nav__item">Posts</a>
+                    <input type="checkbox">
+
+                    <ul class="dropdown__content">
+                        <li><a href="" class="nav__item">Post 1</a></li>
+                        <li><a href="" class="nav__item">Post 2</a></li>
+                        <li><a href="" class="nav__item">Post 3</a></li>
+                    </ul>
+                </li>
+
+          
+
+                <li class="dropdown">
+                    <a href="#" class="nav__item">Blog</a>
+                    <input type="checkbox">
+                    
+                    <ul class="dropdown__content">
+                        <li><a href="" class="nav__item">Blog 1</a></li>
+                        <li><a href="" class="nav__item">Blog 2</a></li>
+                        <li><a href="" class="nav__item">Blog 3</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#" class="nav__item">Link 4</a></li>
+         
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

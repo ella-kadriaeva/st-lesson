@@ -1,0 +1,24 @@
+.navbar{
+    &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__item {
+        display: block;
+        font-size: 16px;
+        color: #959DAD;
+        text-decoration: none;
+        transition: 0.1s;
+
+        &:hover {
+            color: #59606D;
+        }
+
+        &-active {
+            color: #1F1F1F;
+            text-decoration: underline;
+        }
+    }
+}

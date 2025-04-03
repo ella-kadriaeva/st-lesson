@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 24px 0;
+  text-align: center;
+  color: #b83f45;
+  font-size: 80px;
+  font-weight: 200;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, .03);
+  background: #fff;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

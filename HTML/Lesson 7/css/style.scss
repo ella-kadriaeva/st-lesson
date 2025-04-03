@@ -1,0 +1,114 @@
+$post-bg: #f2f2f2;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@mixin fontStyle($size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+
+
+
+.post {
+    background-color: $post-bg;
+    padding: 20px;
+    max-width: 576px;
+    margin: 0 auto;
+
+    &-title {
+        // font-size: 18px;
+        // color: #111;
+        // font-weight: 500;
+        @include fontStyle(18px, #111, 500);
+    }
+
+    &-desc {
+        // font-size: 16px;
+        // color: #222222;
+        // font-weight: 400;
+        @include fontStyle(16px, #222, 400);
+    }
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+    &-item {
+        &__title {
+            font-size: 12px;
+
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}
+
+
+%btn-element {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
+@mixin btn-element {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    &-success {
+        @extend %btn-element;
+
+        // @include btn-element;
+        background-color: blue;
+    }
+
+    &-danger {
+        @extend %btn-element;
+
+        // @include btn-element;
+        background-color: red;
+    }
+
+    &-default {
+
+        // @include btn-element;
+        @extend %btn-element;
+    }
+}
+
+
+@for $i from 1 through 10 {
+    .w-#{$i*10} {
+        width: $i*10%;
+    }
+}
+
+@mixin textStyle($color, $size: false, $bg){
+    color: $color;
+    background: $bg;
+
+    @if $size {
+        font-size: $size;
+    }
+}
+
+.text-1 {
+    @include textStyle(red, 20px, orange )
+}
+
+.text-2 {
+    @include textStyle(purple, false , green )
+}

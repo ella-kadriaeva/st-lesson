@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- nav.navbar>.container>.content>a.navbar-logo{MiniStore}>span{.}^.navbar-menu>ul.nav>li*5>a.nav__item{Link $}^^.navbar-icons>div*2>i^div>i+span{(0)} -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="content">
+                <a href="#" class="navbar-logo">MiniStore<span>.</span></a>
+
+                <div class="navbar-menu">
+                    <ul class="nav">
+                        <li><a href="#" class="nav__item nav__item-active">Home</a></li>
+                        <li><a href="#" class="nav__item">Pages</a></li>
+                        <li><a href="#" class="nav__item">About</a></li>
+                        <li><a href="#" class="nav__item">Blogs</a></li>
+                        <li><a href="#" class="nav__item">Contact</a></li>
+                    </ul>
+                    <div class="navbar-icons">
+                        <div><i data-lucide="search" class="icon"></i></div>
+                        <div><i data-lucide="user-round" class="icon"></i></div>
+                        <div><i data-lucide="shopping-cart" class="icon"></i><span>(0)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header.header>.content>.header__left>h2.header__title+button.btn{Shop Product}^^.header__right>img[src="./image/watch.jpg"] -->
+    <header class="header">
+       <div class="container">
+            <div class="content">
+                <div class="header__left">
+                    <h2 class="header__title">Your Products are great.</h2>
+                    <button class="btn btn-dark">Shop Product</button>
+                </div>
+                <div class="header__right"><img src="./image/watch.png" alt=""></div>
+            </div>
+       </div>
+    </header>
+
+    <main class="main">
+        <div class="features">
+            <div class="container">
+                <div class="content">
+                    <div class="features-item">
+                        <i data-lucide="shopping-cart" class="icon"></i>
+
+                        <div class="features-item__content">
+                            <h3 class="features-item__title">100% secure payment</h3>
+                            <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-item">
+                        <i data-lucide="shopping-cart" class="icon"></i>
+
+                        <div class="features-item__content">
+                            <h3 class="features-item__title">Free delivery</h3>
+                            <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-item">
+                        <i data-lucide="shopping-cart" class="icon"></i>
+
+                        <div class="features-item__content">
+                            <h3 class="features-item__title">Quality guarantee</h3>
+                            <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-item">
+                        <i data-lucide="shopping-cart" class="icon"></i>
+
+                        <div class="features-item__content">
+                            <h3 class="features-item__title">Daily offers</h3>
+                            <p class="features-item__desc">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

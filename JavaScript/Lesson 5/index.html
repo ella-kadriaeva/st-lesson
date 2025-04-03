@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Index Search</h2>
+
+        <article class="form">
+            <div class="form__item">
+                <label for="">Num 1</label>
+                <input type="text" class="input-1">
+            </div>
+
+            <div class="form__item">
+                <button onclick="indexSearch()">Найти индекс</button>
+            </div>
+
+            <h2 class="result-1"></h2>
+        </article>
+    </div>
+
+    <div class="container">
+        <h2>Find Number</h2>
+
+        <article class="form">
+            <div class="form__item">
+                <label for="">Num 1</label>
+                <input type="text" class="input-2">
+            </div>
+
+            <div class="form__item">
+                <button onclick="findNumber()">Найти элемент</button>
+            </div>
+
+            <h2 class="result-2"></h2>
+        </article>
+    </div>
+
+    <div class="container">
+        <h2>Sum numbers</h2>
+
+        <article class="form">
+
+            <div class="form__item">
+                <button onclick="calculateSum()">Сумма чисел</button>
+            </div>
+
+            <h2 class="result-3"></h2>
+        </article>
+    </div>
+
+    <div class="container">
+        <h2>Positive numbers</h2>
+
+        <article class="form">
+
+            <div class="form__item">
+                <button onclick="getPositiveNumbers()">Положительные числа</button>
+            </div>
+
+            <h2 class="result-4"></h2>
+        </article>
+    </div>
+
+    <div class="container">
+        <h2>Find Second Largest</h2>
+
+        <article class="form">
+
+            <div class="form__item">
+                <button onclick="findSecondLargest()">Find Second Largest</button>
+            </div>
+
+            <h2 class="result-5"></h2>
+        </article>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

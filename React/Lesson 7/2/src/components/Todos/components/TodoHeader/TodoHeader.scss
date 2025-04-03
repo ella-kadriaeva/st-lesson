@@ -1,0 +1,16 @@
+.todos-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    input {
+        padding: 16px;
+        border: none;
+        font-size: 24px;
+        width: 100%;
+
+        &:focus {
+            box-shadow: 0 0 2px 2px #cf7d7d;
+            outline: 0;
+        }
+    }
+}

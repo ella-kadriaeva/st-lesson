@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 1024px) {
+    .container-1 {
+        background-color: orange;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-1 {
+        background-color: green;
+    }
+}
+
+.container-2 {
+    background-color: purple;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 376px) {
+    .container-2 {
+        background-color: blue;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .container-2 {
+        background-color: rgb(0, 255, 136);
+    }
+} */
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .container-2 {
+        background-color: rgb(0, 255, 136);
+    }
+}
+
+.username::before {
+    content: "Hello ";
+}
+
+.username::after{
+    content: " !!!!";
+}

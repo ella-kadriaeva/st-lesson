@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-image: url("../image/header-bg.png");
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+    max-width: 1400px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.header .header-bg {
+    background-color: #00000060;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    max-width: 1232px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.navbar,
+.navbar .navbar-left,
+.navbar .navbar-right,
+.navbar .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-left {
+    gap: 80px;
+}
+
+.navbar .navbar-right {
+    gap: 32px;
+}
+
+.navbar .navbar-logo {
+    font-family: "Viaoda Libre", serif;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-list {
+    list-style: none;
+    gap: 32px;
+}
+
+.navbar .navbar__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.navbar .navbar__item:hover {
+    text-shadow: 0px 0px 14px #fff;
+}
+
+.navbar .navbar-icon {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .header-body {
+    padding-top: 120px;
+    text-align: center;
+}
+
+
+.header .header__title {
+    font-size: 200px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header .header__desc {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 6px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    padding: 16px 32px;
+}
+
+.btn-border {
+    border: 1px solid #fff;
+    color: #fff;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.color-orange {
+    color: #f86f3c;
+}
+
+.elem-1 {
+    width: 300px;
+    height: 300px;
+    background-color: #f9af57;
+    color: #fff;
+    padding: 20px;
+}
+.elem-2 {
+    width: 220px;
+    height: 220px;
+    background-color: #79408c;
+    color: #fff;
+    margin: auto;
+}
+.elem-3 {
+    width: 150px;
+    height: 150px;
+    background-color: #669900;
+    color: #fff;
+    margin: auto;
+}
+h4{
+    padding: 10px;
+}
+
+.active {
+    background-color: red;
+}

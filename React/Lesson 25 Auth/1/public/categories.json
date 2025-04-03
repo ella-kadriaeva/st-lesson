@@ -1,0 +1,22 @@
+[
+    {
+        "id": "all",
+        "title": "Все",
+        "slug": "all"
+    },
+    {
+        "id": "1",
+        "title": "Рюкзаки",
+        "slug": "bag"
+    },
+    {
+        "id": "2",
+        "title": "Футболки",
+        "slug": "t-shirt"
+    },
+    {
+        "id": "3",
+        "title": "Рубашки",
+        "slug": "shirt"
+    }
+]

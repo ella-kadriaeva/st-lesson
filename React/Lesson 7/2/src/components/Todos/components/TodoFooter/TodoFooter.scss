@@ -1,0 +1,28 @@
+.footer {
+    background-color: #fff;
+    padding: 12px 16px;
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+
+.filters {
+    ul {
+        display: flex;
+        gap: 8px;
+        list-style: none;
+
+        li {
+            padding: 4px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #111;
+        }
+    }
+
+    .active {
+        border: 1px solid #ce4646;
+    }
+}
